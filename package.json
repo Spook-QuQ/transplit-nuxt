@@ -1,0 +1,29 @@
+{
+  "name": "transplit",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt generate",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.11.1",
+    "@nuxtjs/axios": "^5.12.5",
+    "core-js": "^3.8.3",
+    "firebase": "^8.3.0",
+    "firebase-admin": "^9.5.0",
+    "graphql": "^15.5.0",
+    "kuromoji": "^0.1.2",
+    "nuxt": "^2.14.12",
+    "nuxt-i18n": "^6.20.4",
+    "pug": "^3.0.2",
+    "pug-plain-loader": "^1.1.0",
+    "request": "^2.88.2",
+    "xml2json": "^0.12.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.11.3"
+  }
+}
